@@ -1,0 +1,28 @@
+#metodNames {
+  color: #ba180b;
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+  color: black;
+}
+div {
+  font-size: 25px;
+}
+
+.colorp {
+  background-color: #ffc300;
+}
+
+.colorn {
+  background-color: #06ff27;
+}
+
+.colors{
+  background-color: blue;
+}
+
+button {
+  width: 100px;
+  background-color: #c73e33;
+}
