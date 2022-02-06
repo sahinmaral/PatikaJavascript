@@ -1,0 +1,29 @@
+.banner{
+    height:270px;
+    background-color: orange;
+}
+
+.todoinput button{
+    width:300px;
+    border-radius: 0px;
+    background-color: lightgray;
+    border: 0px;
+}
+
+.todoinput button:hover{
+    background-color: lightslategray;
+}
+
+.todoinput input{
+    border-radius: 0px;
+}
+
+
+.todoDiv button{
+    width:100px;
+    border-radius: 0px !important;
+}
+
+.todoDiv button:hover{
+    background-color: orange;
+}

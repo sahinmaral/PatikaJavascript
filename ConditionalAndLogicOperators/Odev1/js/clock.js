@@ -43,6 +43,8 @@ function startClock() {
   let minuteHand = document.getElementById("minuteHand");
   let hourHand = document.getElementById("hourHand");
 
+  
+
   if (secondHand.style.transform == "rotate(360deg)")
     secondHand.style.transform = "rotate(0deg)";
   else secondHand.style.transform = `rotate(${6 * second}deg)`;

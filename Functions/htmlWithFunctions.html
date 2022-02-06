@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #bubbleForm {
+      background-color: green;
+      position: relative;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    #bubbleDiv {
+      background-color: blue;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      width: 100px;
+      height: 100px;
+    }
+
+    #bubbleP {
+      background-color: red;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      margin: 0;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <form action="#" id="selectColor">
+    <label for="color">Choose a color</label>
+    <select name="colors" id="select">
+      <option value="red">RED</option>
+      <option value="blue">BLUE</option>
+      <option value="purple">PURPLE</option>
+      <option value="orange">ORANGE</option>
+      <option value="pink">PINK</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <div id="container">
+    <div>
+      <p id="text">SUBMIT FORM </p>
+    </div>
+    <form action="/action_page.php" class="inputText">
+      <label for="fname" id="l1">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"> <br>
+      <label for="lname" id="l2">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe" id="label2"><br><br>
+    </form>
+    <button type="button" id="button">Clicked me </button>
+    <form action="#" id="selectColorv2">
+      <label for="color">Choose a color</label>
+      <select name="colors" id="select">
+        <option value="red">RED</option>
+        <option value="blue">BLUE</option>
+        <option value="purple">PURPLE</option>
+        <option value="orange">ORANGE</option>
+        <option value="pink">PINK</option>
+      </select>
+      <br><br>
+    </form>
+  </div>
+
+  <div id="text">
+    <div>
+      <input id="input" placeholder="write">
+      <div id="output" style="background-color:orange ;width:60%; margin-bottom:50px"> çıktı </div>
+    </div>
+  </div>
+
+  <form id="bubbleForm" onclick="alert('form');">FORM
+    <div id="bubbleDiv" onclick="alert('div');">DIV
+      <p id="bubbleP" onclick="alert('p'); event.stopPropagation();">P</p>
+    </div>
+  </form>
+
+  <h3 id="greetings">Event Header</h3>
+  <script src="script.js"></script>
+</body>
+
+</html>
