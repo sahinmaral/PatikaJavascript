@@ -1,0 +1,14 @@
+{
+    "name" : "Şahin",
+    "surname" : "MARAL",
+    "address" : [
+        {
+            "country" : "Turkey",
+            "city" : "Pendik"
+        },
+        {
+            "country" : "Turkey",
+            "city" : "Kartal"
+        }
+    ]
+}
