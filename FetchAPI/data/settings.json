@@ -1,0 +1,8 @@
+{
+    "username" : "sahinmaral",
+    "password" : 1234,
+    "serverIp" : "127.0.0.1",
+    "serverName" : "localhost",
+    "isAuth" : true,
+    "authorizeTypes" : ["admin","user"]
+}

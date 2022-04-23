@@ -1,42 +1,42 @@
-
-vowelsAndConsonants("javascriptloops")
+vowelsAndConsonants("javascriptloops");
 
 function vowelsAndConsonants(s) {
-    let vowels = []
-    let consonants = []
+  let vowels = [];
+  let consonants = [];
 
-    let items = s.toLowerCase().split("")
-    
-    for(let i = 0; i < items.length; i++){
-        if(items[i] === "a" ||  
-        items[i] === "e" || 
-        items[i] === "i" || 
-        items[i] === "o" || 
-        items[i] === "u") 
-        vowels.push(items[i])
-        else
-        consonants.push(items[i])   
-    }
-    
-    let sumItems = [...vowels , ...consonants]
-    
-    sumItems.forEach(element => console.log(element))
-    
+  let items = s.toLowerCase().split("");
+
+  for (let i = 0; i < items.length; i++) {
+    if (
+      items[i] === "a" ||
+      items[i] === "e" ||
+      items[i] === "i" ||
+      items[i] === "o" ||
+      items[i] === "u"
+    )
+      vowels.push(items[i]);
+    else consonants.push(items[i]);
+  }
+
+  let sumItems = [...vowels, ...consonants];
+
+  sumItems.forEach((element) => console.log(element));
 }
 
+function writeOddValues() {
+  let items = [];
 
+  for (let i = 0; i < 50; i++) {
+    if (i % 2 == 1) items.push(i);
+  }
 
-function writeOddValues(){
-
-    let items = []
-
-    for(let i=0; i<50;i++){
-        if(i % 2 == 1)
-        items.push(i)
-    }
-
-    console.log(items)
+  console.log(items);
 }
 
-writeOddValues()
+writeOddValues();
 
+// for (var i = 0; i < 3; i++) {
+//   setTimeout(function () {
+//     alert(i);
+//   }, 1000 + i);
+// }
